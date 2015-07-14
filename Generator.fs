@@ -8,7 +8,7 @@ open Options
 let random = new Random()
 
 let generate options = 
-    // Use pattern matching to check start < end
+    // TODO: Validate that start < end
 
     // If useHighSuffix is given, then weight the tail of the 2..999 
     // personal id suffix range. This is count-dependent: if a very 
