@@ -16,8 +16,8 @@ To create ID's clone this repo, build the F# project, and launch the tool from c
                                                                                
   -e, --end          (Default: 2010) Ending year (inclusive) for generated IDs.
                                                                                
-  --usehighsuffix    (Default: True) Use high suffix range to decrease chance  
-                     of creating a real personal id.                           
+  --usehighsuffix    Use high suffix range to decrease chance of creating a real 
+                     personal id.                           
                                                                                
   --help             Display this help screen.                                 
                                                                                
