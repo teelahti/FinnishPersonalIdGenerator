@@ -37,6 +37,6 @@ let generate options =
 
     generator 
         |> Seq.map (pipeline) 
-        |> Seq.take options.count 
         |> Seq.distinct  // This causes extra memory pressure on high counts
+        |> Seq.take options.count 
         |> Seq.iter (fun (x) -> printfn "%s" x.Result)

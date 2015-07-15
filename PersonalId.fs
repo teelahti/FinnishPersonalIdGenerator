@@ -13,6 +13,7 @@ let divider = function
     | year when year < 2000 -> "-"
     | _ -> "A"
 
+// This does not include all the alphabets, only the ones that are in the personal ID spec.
 let suffixes = "0123456789ABCDEFHJKLMNPRSTUVWXY".ToCharArray()
 
 let hash (x : string) = 
